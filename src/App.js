@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux';
 import * as actions from './actions/actions';
 import {store} from './store/index';
 
-import Counter from './components/Counter';
+import Counter from './components/Counter.jsx';
 
 import { connect } from 'react-redux';
 
@@ -28,8 +28,8 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-            <Counter {...this.props} />
         </header>
+        <Counter style={{width: '500px'}} {...this.props} />
       </div>
     );
   }

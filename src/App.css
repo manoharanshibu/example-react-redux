@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,30 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.inlineDiv {
+  margin-top: 100px; 
+  display: inline-block;
+  width: 800px;
+}
+
+
+
+.button {
+  background: #fc5000;
+  border-radius: 50px;
+  color: #ffffff;
+  font: 500 1.6rem/1.7rem Arial;
+  height: 45px;
+  max-width: 150px;
+  width: 100%;
+}
+
+.button:hover {
+  background: #ffffff;
+  border: 1px solid #fc5000;
+  color: #fc5000;
 }
 
 @keyframes App-logo-spin {

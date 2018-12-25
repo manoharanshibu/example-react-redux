@@ -8,6 +8,6 @@ export default class Counter extends Component {
 
         const { counter, incrementAction, decrementAction } = this.props;
 
-        return <div><button onClick={ () => decrementAction(this.state)}>Decrement</button>&nbsp;{counter}&nbsp;<button onClick={ () => incrementAction(this.state)}>Increment</button></div>
+        return <div className="inlineDiv"><button className="button" onClick={ () => decrementAction(this.state)}>Decrement</button>&nbsp;{counter}&nbsp;<button className="button" onClick={ () => incrementAction(this.state)}>Increment</button></div>
     }
 }
